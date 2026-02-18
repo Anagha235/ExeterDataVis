@@ -1,0 +1,20 @@
+STAFF_MASTER
+Records of current and past staff members at the organisation.
+
+staff_id: the unique ID for a staff member
+department: the department the staff member works for
+grade: the grade for the staff member's role - higher grades are more senior
+contract_type: whether the staff member is on a permanent or fixed-term contract
+fte: the proportion of full-time hours worked by the staff member ie 1.0 for a staff member working full-time, less than 1.0 for staff members who work part-time. Note that salaries are proportionate to this value for part-time staff
+start_date: the date the staff member began working in their role
+last_promotion_date: the date the staff member was last promoted
+gender: the staff member's gender
+ethnicity: the staff member's ethnicity
+exit_date: the date the staff member left the organisation
+
+
+GRADE_SALARIES
+Maps jobs grades to the salaries paid by roles at that grade
+
+grade: the job grade
+salary: the salary paid by jobs at that grade
